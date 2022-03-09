@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Automation Suite" thread-count="3" parallel="tests">
+
+    <test name="TestSuit1" parallel="tests" >
+        <classes>m
+            <class name="adjarabet.registration" />
+        </classes>
+    </test>
+
+    <test name="TestSuit2" parallel="tests" >
+        <classes>
+            <class name="adjarabet.practice2" />
+        </classes>
+    </test>
+
+    <test name="TestSuit3" parallel="tests" >
+        <classes>
+            <class name="adjarabet.practice1" />
+        </classes>
+    </test>
+</suite>
