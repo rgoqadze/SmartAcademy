@@ -1,2 +1,0 @@
-# SmartAcademy
-For HomeWorks
